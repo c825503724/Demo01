@@ -10,9 +10,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <title>管理中心</title>
 </head>
 <body>
-<c:out value="xx"/>
+<div class="frame">
+<div class="top">
+  <%@include file="top.jsp"%>
+</div>
+    <div class="middle">
+<div class="siderbar">
+<%@include file="siderbar.jsp"%>
+</div>
+<div class="contents">
+    <%@include file="contents1.jsp"%>
+</div>
+    </div>
+</div>
 </body>
 </html>
